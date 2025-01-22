@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cables",
+  "info": {
+    "singularName": "cable",
+    "pluralName": "cables",
+    "displayName": "cable",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "reference": {
+      "type": "string"
+    },
+    "idf": {
+      "type": "string"
+    },
+    "idb": {
+      "type": "string"
+    },
+    "qte": {
+      "type": "integer",
+      "default": 0
+    },
+    "project_name": {
+      "type": "string"
+    }
+  }
+}

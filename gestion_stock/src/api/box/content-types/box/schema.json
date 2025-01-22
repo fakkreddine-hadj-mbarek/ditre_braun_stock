@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boxes",
+  "info": {
+    "singularName": "box",
+    "pluralName": "boxes",
+    "displayName": "box",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Active": {
+      "type": "boolean",
+      "default": false
+    },
+    "cable_id": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cable.cable"
+    },
+    "uid": {
+      "type": "string"
+    }
+  }
+}
